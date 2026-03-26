@@ -48,8 +48,8 @@ jobs:
             --exclude-path templates
             --exclude-path skills/*/examples
             --exclude-path agents/*/examples
-            --exclude-file .lycheeignore
-            "**/*.md"
+            .
           fail: true
+          failIfEmpty: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
