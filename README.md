@@ -80,9 +80,9 @@ Consulta `SECURITY.md` para reporte responsable de vulnerabilidades.
 
 - [x] Definir 5 agents base cross-tool.
 - [x] Definir 10+ skills reutilizables con ejemplos.
-- [ ] Publicar guia de evaluacion de calidad de prompts/agentes.
-- [ ] Agregar templates de contribucion por tipo de recurso.
-- [ ] Automatizar validaciones basicas (lint markdown + enlaces).
+- [x] Publicar guia de evaluacion de calidad de prompts/agentes.
+- [x] Agregar templates de contribucion por tipo de recurso.
+- [x] Automatizar validaciones basicas (lint markdown + enlaces).
 
 ## Licencia
 
