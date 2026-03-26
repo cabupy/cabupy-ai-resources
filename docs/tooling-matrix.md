@@ -11,6 +11,7 @@ Esta matriz define que skills reutilizables usa cada agent base.
 | `docs-maintainer` | Mantener docs utiles, precisas y accionables | `docs-structure-planner`, `clarity-rewriter`, `change-summarizer` |
 | `refactor-architect` | Planificar refactors seguros por etapas | `risk-assessment`, `change-summarizer`, `regression-planner` |
 | `release-manager` | Preparar releases con notas y checks claros | `changelog-drafter`, `release-checklist-runner`, `risk-assessment`, `change-summarizer` |
+| `frontend-developer` | Implementar funcionalidades frontend con calidad visual y tecnica | `ui-ux-foundations`, `react-feature-development`, `angular-feature-development`, `tailwindcss-ui-engineering`, `test-case-design`, `coverage-gap-finder` |
 
 ## Notas
 

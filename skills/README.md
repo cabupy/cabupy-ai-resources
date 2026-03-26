@@ -20,6 +20,10 @@ Todas las skills deben seguir el estandar en `docs/agent-skill-contract.md`.
 - `clarity-rewriter`
 - `changelog-drafter`
 - `release-checklist-runner`
+- `ui-ux-foundations`
+- `react-feature-development`
+- `angular-feature-development`
+- `tailwindcss-ui-engineering`
 
 ## Estructura de directorio
 
