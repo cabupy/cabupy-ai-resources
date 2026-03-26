@@ -44,7 +44,6 @@ jobs:
           args: >-
             --verbose
             --no-progress
-            --exclude-mail
             --exclude-path .github/ISSUE_TEMPLATE
             --exclude-path templates
             --exclude-path skills/*/examples
