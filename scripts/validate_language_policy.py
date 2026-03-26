@@ -62,7 +62,7 @@ SPANISH_MARKERS_FOR_ENGLISH_FILES = [
     "## Flujo",
     "## Proceso",
     "## Formato de salida",
-    "## Guardrails",
+    "## Barandillas",
     "## Controles de calidad",
     "## Modo de falla",
     "Salida:",
