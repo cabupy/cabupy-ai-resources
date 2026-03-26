@@ -1,0 +1,46 @@
+name: Language Policy
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "scripts/validate_language_policy.py"
+      - ".github/workflows/language-policy.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "scripts/validate_language_policy.py"
+      - ".github/workflows/language-policy.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-language-policy:
+    name: Validate Language Policy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve base and head SHAs
+        id: shas
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "base=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_OUTPUT"
+            echo "head=${{ github.event.pull_request.head.sha }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "base=${{ github.event.before }}" >> "$GITHUB_OUTPUT"
+            echo "head=${{ github.sha }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate language rules
+        run: |
+          python3 scripts/validate_language_policy.py \
+            --base "${{ steps.shas.outputs.base }}" \
+            --head "${{ steps.shas.outputs.head }}"
