@@ -44,6 +44,16 @@ Un aporte suele aceptarse si:
 - Mantiene consistencia con la estructura del repo.
 - Mejora la calidad del ecosistema y no solo la cantidad.
 
+## Contribuciones de Agents y Skills
+
+Para cambios en `agents/` o `skills/`:
+
+- Sigue el contrato en `docs/agent-skill-contract.md`.
+- Usa `templates/agent-template.md` o `templates/skill-template.md`.
+- Incluye al menos un ejemplo en `examples/`.
+- Actualiza `docs/tooling-matrix.md` si cambian dependencias entre agentes y skills.
+- Evita duplicacion: extiende una skill existente antes de crear otra nueva.
+
 ## Codigo de conducta
 
 Al participar aceptas `CODE_OF_CONDUCT.md`.
