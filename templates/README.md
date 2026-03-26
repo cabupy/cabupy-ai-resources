@@ -1,13 +1,13 @@
 # Templates
 
-Reusable templates for consistent contributions.
+Plantillas reutilizables para mantener contribuciones consistentes.
 
-## Available
+## Disponibles
 
 - `agent-template.md`
 - `skill-template.md`
 
-## Usage
+## Uso
 
-- Copy the matching template into `agents/<agent-id>/` or `skills/<skill-id>/`.
-- Fill all required sections before opening a PR.
+- Copiar la plantilla en `agents/<agent-id>/` o `skills/<skill-id>/`.
+- Completar todas las secciones requeridas antes de abrir un PR.

@@ -1,6 +1,6 @@
 # test-prioritization
 
-Rank tests by impact, risk reduction, and execution cost.
+Ordena pruebas por impacto, reduccion de riesgo y costo de ejecucion.
 
-- Used by: `test-engineer`.
-- Output: prioritized implementation/testing queue.
+- Usado por: `test-engineer`.
+- Salida: cola priorizada de implementacion y ejecucion.

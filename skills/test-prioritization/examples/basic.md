@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: 12 candidate tests after payment refactor.
+Entrada: 12 pruebas candidatas despues de un refactor de pagos.
 
-Output: P0/P1/P2 order with short risk-based rationale.
+Salida: orden P0/P1/P2 con fundamento breve basado en riesgo.

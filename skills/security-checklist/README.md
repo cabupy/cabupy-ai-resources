@@ -1,6 +1,6 @@
 # security-checklist
 
-Run pragmatic security checks against changed code paths.
+Ejecuta chequeos pragmaticos de seguridad sobre rutas de codigo modificadas.
 
-- Used by: `code-review`.
-- Output: checklist status and remediation items.
+- Usado por: `code-review`.
+- Salida: checklist de estado y acciones de remediacion.

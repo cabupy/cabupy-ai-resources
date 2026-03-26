@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: null handling bug in `payments/service.ts`.
+Entrada: bug de manejo de null en `payments/service.ts`.
 
-Output: medium-severity comment with one-line fix strategy.
+Salida: comentario de severidad media con estrategia de correccion en una linea.

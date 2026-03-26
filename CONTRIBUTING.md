@@ -1,4 +1,4 @@
-# Contributing Guide
+# Guia de contribucion
 
 Gracias por contribuir a este proyecto.
 
@@ -21,6 +21,7 @@ Gracias por contribuir a este proyecto.
 ## Convenciones
 
 - Commits: Conventional Commits.
+- Idioma: seguir la politica de `AGENTS.md`.
 - Docs: Markdown claro, ejemplos concretos.
 - Nombres de recursos:
   - `kebab-case` para carpetas y archivos.
@@ -31,6 +32,8 @@ Gracias por contribuir a este proyecto.
 
 - [ ] Describe problema y solucion.
 - [ ] Incluye contexto de uso real.
+- [ ] Cumple politica de idioma definida en `AGENTS.md`.
+- [ ] Mensajes de commit en espanol.
 - [ ] No contiene secretos ni datos sensibles.
 - [ ] Documentacion actualizada.
 - [ ] Riesgos/limitaciones explicitas (si aplica).

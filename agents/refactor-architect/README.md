@@ -1,7 +1,7 @@
 # refactor-architect
 
-Agent for designing safe refactor plans with minimal delivery risk.
+Agente para disenar planes de refactor seguros con riesgo minimo de entrega.
 
-- Focus: behavior preservation, staged migration, and rollback readiness.
-- Uses skills: `risk-assessment`, `change-summarizer`, `regression-planner`.
-- Output: phased refactor plan with guardrails and validation gates.
+- Enfoque: preservacion de comportamiento, migracion por etapas y rollback.
+- Usa skills: `risk-assessment`, `change-summarizer`, `regression-planner`.
+- Salida: plan de refactor por fases con guardrails y validaciones.

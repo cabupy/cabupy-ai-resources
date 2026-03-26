@@ -1,6 +1,6 @@
 # coverage-gap-finder
 
-Detect missing tests in changed behavior paths.
+Detecta pruebas faltantes en rutas de comportamiento modificadas.
 
-- Used by: `test-engineer`.
-- Output: coverage gaps with suggested test additions.
+- Usado por: `test-engineer`.
+- Salida: brechas de cobertura con pruebas sugeridas.

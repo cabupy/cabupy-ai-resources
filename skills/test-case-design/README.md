@@ -1,6 +1,6 @@
 # test-case-design
 
-Design high-value test cases from behavior changes.
+Disena casos de prueba de alto valor a partir de cambios de comportamiento.
 
-- Used by: `test-engineer`.
-- Output: scenario matrix by test layer.
+- Usado por: `test-engineer`.
+- Salida: matriz de escenarios por capa de pruebas.

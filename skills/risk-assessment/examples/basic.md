@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: migration touching billing and retry logic.
+Entrada: migracion que toca facturacion y logica de reintentos.
 
-Output: high-risk entry for duplicate charge possibility with mitigation and rollback steps.
+Salida: riesgo alto por posible cargo duplicado, con mitigacion y plan de rollback.

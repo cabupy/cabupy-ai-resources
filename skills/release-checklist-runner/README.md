@@ -1,6 +1,6 @@
 # release-checklist-runner
 
-Generate and evaluate pre/post-release checklist execution.
+Genera y evalua ejecucion de checklists pre y post release.
 
-- Used by: `release-manager`.
-- Output: checklist status with blockers and follow-ups.
+- Usado por: `release-manager`.
+- Salida: estado de checklist con bloqueos y seguimientos.

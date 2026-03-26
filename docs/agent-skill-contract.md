@@ -1,38 +1,40 @@
-# Agent and Skill Contract
+# Contrato de Agents y Skills
 
-This document defines the minimum contract for all agents and skills in this repository.
+Este documento define el contrato minimo para todos los agents y skills
+del repositorio.
 
-## Agent Contract
+## Contrato para agents
 
-Each agent must include:
+Cada agent debe incluir:
 
-- `id`: unique kebab-case identifier.
-- `purpose`: one short paragraph with the end-to-end goal.
-- `inputs`: required context and optional context.
-- `workflow`: ordered steps the agent follows.
-- `outputs`: stable output format.
-- `guardrails`: safety limits and constraints.
-- `quality_checks`: validation gates before final output.
-- `failure_mode`: behavior when context is missing or ambiguous.
-- `compatibility`: supported tools (`generic`, `codex`, `claude-code`, `gemini-cli`, `opencode`).
+- `id`: identificador unico en kebab-case.
+- `purpose`: un parrafo corto con el objetivo end-to-end.
+- `inputs`: contexto requerido y opcional.
+- `workflow`: pasos ordenados que sigue el agent.
+- `outputs`: formato de salida estable.
+- `guardrails`: limites y restricciones de seguridad.
+- `quality_checks`: validaciones previas a la salida final.
+- `failure_mode`: comportamiento cuando falta contexto o hay ambiguedad.
+- `compatibility`: herramientas soportadas
+  (`generic`, `codex`, `claude-code`, `gemini-cli`, `opencode`).
 
-## Skill Contract
+## Contrato para skills
 
-Each skill must include:
+Cada skill debe incluir:
 
-- `id`: unique kebab-case identifier.
-- `purpose`: specific capability in one to two lines.
-- `inputs`: minimal required inputs.
-- `process`: deterministic execution steps.
-- `outputs`: strict format.
-- `guardrails`: explicit do/don't constraints.
-- `quality_checks`: output quality gates.
-- `failure_mode`: safe fallback behavior.
-- `compatibility`: target tools.
+- `id`: identificador unico en kebab-case.
+- `purpose`: capacidad especifica en una o dos lineas.
+- `inputs`: entradas minimas requeridas.
+- `process`: pasos de ejecucion deterministas.
+- `outputs`: formato de salida estricto.
+- `guardrails`: restricciones explicitas de lo que puede y no puede hacer.
+- `quality_checks`: controles de calidad de salida.
+- `failure_mode`: comportamiento seguro ante falta de contexto.
+- `compatibility`: herramientas objetivo.
 
-## Frontmatter Standard
+## Estandar de frontmatter
 
-Use this frontmatter in `agent.md` and `skill.md` files:
+Usar este frontmatter en `agent.md` y `skill.md`:
 
 ```yaml
 id: example-id
@@ -43,8 +45,10 @@ compatibility: [generic, codex, claude-code, gemini-cli, opencode]
 last_reviewed: 2026-03-25
 ```
 
-## Naming Rules
+## Reglas de nombres
 
-- Agent IDs should be role-oriented (`code-review`, `release-manager`).
-- Skill IDs should be capability-oriented (`risk-assessment`, `clarity-rewriter`).
-- Keep names short and explicit; avoid generic labels like `helper` or `utils`.
+- Los IDs de agents deben orientarse a rol (`code-review`, `release-manager`).
+- Los IDs de skills deben orientarse a capacidad
+  (`risk-assessment`, `clarity-rewriter`).
+- Mantener nombres cortos y explicitos; evitar etiquetas genericas como
+  `helper` o `utils`.

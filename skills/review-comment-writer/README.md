@@ -1,6 +1,6 @@
 # review-comment-writer
 
-Turn technical findings into clear, actionable review comments.
+Convierte hallazgos tecnicos en comentarios de revision claros y accionables.
 
-- Used by: `code-review`.
-- Output: comments with rationale and concrete fix direction.
+- Usado por: `code-review`.
+- Salida: comentarios con fundamento y direccion concreta de solucion.

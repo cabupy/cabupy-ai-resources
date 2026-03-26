@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: refactor in authentication middleware.
+Entrada: refactor en middleware de autenticacion.
 
-Output: critical regression checks for login, session renewal, and permission enforcement.
+Salida: checks criticos de regresion para login, renovacion de sesion y permisos.

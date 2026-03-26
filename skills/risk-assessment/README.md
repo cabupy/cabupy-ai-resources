@@ -1,6 +1,6 @@
 # risk-assessment
 
-Evaluate technical and delivery risk from code or process changes.
+Evalua riesgo tecnico y de entrega a partir de cambios de codigo o proceso.
 
-- Used by: `code-review`, `refactor-architect`, `release-manager`.
-- Output: risk table with impact, likelihood, and mitigation.
+- Usado por: `code-review`, `refactor-architect`, `release-manager`.
+- Salida: tabla de riesgos con impacto, probabilidad y mitigacion.

@@ -1,6 +1,6 @@
 # changelog-drafter
 
-Draft release changelog entries from merged work.
+Redacta entradas de changelog a partir de cambios integrados.
 
-- Used by: `release-manager`.
-- Output: Keep a Changelog style entries.
+- Usado por: `release-manager`.
+- Salida: entradas en formato Keep a Changelog.

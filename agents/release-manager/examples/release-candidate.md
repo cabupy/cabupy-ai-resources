@@ -1,11 +1,11 @@
-# Example: Release Candidate Checklist
+# Ejemplo: Checklist de release candidate
 
-## Input
+## Entrada
 
-- Commits merged since last tag and target version `v0.1.0`.
+- Commits integrados desde el ultimo tag y version objetivo `v0.1.0`.
 
-## Expected Output
+## Salida esperada
 
-- Changelog draft grouped by change type.
-- Risk list with mitigation ownership.
-- Go/no-go checklist for publishing and post-release validation.
+- Borrador de changelog agrupado por tipo de cambio.
+- Lista de riesgos con responsables de mitigacion.
+- Checklist de go/no-go para publicar y validar post-release.

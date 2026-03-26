@@ -1,6 +1,6 @@
 # change-summarizer
 
-Summarize code or doc changes into concise impact statements.
+Resume cambios de codigo o documentacion en enunciados de impacto concisos.
 
-- Used by: `code-review`, `docs-maintainer`, `refactor-architect`, `release-manager`.
-- Output: short bullets focused on behavior and impact.
+- Usado por: `code-review`, `docs-maintainer`, `refactor-architect`, `release-manager`.
+- Salida: bullets breves enfocados en comportamiento e impacto.

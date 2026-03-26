@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: three commits adding retries and timeout controls.
+Entrada: tres commits que agregan reintentos y controles de timeout.
 
-Output: four bullets focused on reliability behavior, not implementation details.
+Salida: cuatro bullets enfocados en confiabilidad, no en detalles de implementacion.

@@ -1,11 +1,11 @@
-# Example: Update Operational Runbook
+# Ejemplo: Actualizacion de runbook operativo
 
-## Input
+## Entrada
 
-- New deployment step added in CI workflow.
+- Nuevo paso de despliegue agregado en workflow de CI.
 
-## Expected Output
+## Salida esperada
 
-- Impacted files list (`README`, runbook, release checklist).
-- Updated step-by-step section with command examples.
-- Notes about backward compatibility and migration hints.
+- Lista de archivos impactados (`README`, runbook, checklist de release).
+- Seccion paso a paso actualizada con ejemplos de comandos.
+- Notas sobre compatibilidad hacia atras y migracion.

@@ -1,11 +1,11 @@
-# Example: Regression Plan for Checkout Update
+# Ejemplo: Plan de regresion para update de checkout
 
-## Input
+## Entrada
 
-- Diff affecting checkout totals and discount application.
+- Diff que afecta totales de checkout y aplicacion de descuentos.
 
-## Expected Output
+## Salida esperada
 
-- Test matrix for happy path, edge cases, and failure scenarios.
-- Prioritized tests for pricing correctness and idempotency.
-- Recommendation for minimum CI gate before merge.
+- Matriz de pruebas para camino feliz, casos borde y fallas.
+- Pruebas priorizadas para exactitud de precios e idempotencia.
+- Recomendacion de gate minimo en CI antes de merge.

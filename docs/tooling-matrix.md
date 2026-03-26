@@ -1,19 +1,21 @@
-# Agent to Skill Matrix
+# Matriz de Agents y Skills
 
-This matrix defines which reusable skills are used by each base agent.
+Esta matriz define que skills reutilizables usa cada agent base.
 
-## Base Agents
+## Agents base
 
-| Agent | Core goal | Skills |
+| Agent | Objetivo principal | Skills |
 |---|---|---|
-| `code-review` | Review code quality, risk, and security | `risk-assessment`, `security-checklist`, `review-comment-writer`, `change-summarizer` |
-| `test-engineer` | Improve test strategy and regression coverage | `test-case-design`, `regression-planner`, `coverage-gap-finder`, `test-prioritization` |
-| `docs-maintainer` | Keep docs useful, accurate, and actionable | `docs-structure-planner`, `clarity-rewriter`, `change-summarizer` |
-| `refactor-architect` | Plan safe refactors with migration steps | `risk-assessment`, `change-summarizer`, `regression-planner` |
-| `release-manager` | Prepare releases with clear notes and checks | `changelog-drafter`, `release-checklist-runner`, `risk-assessment`, `change-summarizer` |
+| `code-review` | Revisar calidad, riesgo y seguridad del codigo | `risk-assessment`, `security-checklist`, `review-comment-writer`, `change-summarizer` |
+| `test-engineer` | Mejorar estrategia de pruebas y cobertura de regresion | `test-case-design`, `regression-planner`, `coverage-gap-finder`, `test-prioritization` |
+| `docs-maintainer` | Mantener docs utiles, precisas y accionables | `docs-structure-planner`, `clarity-rewriter`, `change-summarizer` |
+| `refactor-architect` | Planificar refactors seguros por etapas | `risk-assessment`, `change-summarizer`, `regression-planner` |
+| `release-manager` | Preparar releases con notas y checks claros | `changelog-drafter`, `release-checklist-runner`, `risk-assessment`, `change-summarizer` |
 
-## Notes
+## Notas
 
-- Skills are cross-agent by design; do not duplicate the same capability under different names.
-- If a new skill overlaps with an existing one, prefer extending the existing skill.
-- Keep this matrix updated when adding or deprecating agents or skills.
+- Las skills son cross-agent por diseno; no duplicar capacidades con
+  diferentes nombres.
+- Si una nueva skill se superpone con otra existente, extender la skill
+  existente antes de crear una nueva.
+- Mantener esta matriz actualizada al agregar o deprecar agents o skills.

@@ -1,59 +1,59 @@
-# Quality Evaluation Guide
+# Guia de evaluacion de calidad
 
-This guide defines how to evaluate the quality of agents and skills before merge.
+Esta guia define como evaluar la calidad de agents y skills antes del merge.
 
-## Evaluation Goals
+## Objetivos de evaluacion
 
-- Ensure contributions are useful in real engineering workflows.
-- Keep outputs reliable, safe, and easy to validate.
-- Maintain interoperability across supported tools.
+- Asegurar que los aportes sean utiles en flujos reales de ingenieria.
+- Mantener salidas confiables, seguras y faciles de validar.
+- Preservar interoperabilidad entre herramientas soportadas.
 
-## Scoring Model
+## Modelo de puntuacion
 
-Use a 1-5 score for each category.
+Usar escala de 1 a 5 por categoria.
 
-- `1`: missing or unusable
-- `3`: acceptable but incomplete
-- `5`: strong and production-ready
+- `1`: faltante o inutilizable.
+- `3`: aceptable pero incompleto.
+- `5`: solido y listo para produccion.
 
-## Agent Evaluation Rubric
+## Rubrica para agents
 
-Score each criterion:
+Evaluar cada criterio:
 
-- Purpose clarity: is the end-to-end role explicit?
-- Input quality: are required and optional inputs clear?
-- Workflow quality: are steps deterministic and practical?
-- Output quality: is output format stable and actionable?
-- Safety: are guardrails explicit and sufficient?
-- Failure behavior: does it fail safely with missing context?
-- Reusability: can it run across tool ecosystems?
+- Claridad del proposito: el rol end-to-end es explicito.
+- Calidad de inputs: entradas requeridas y opcionales son claras.
+- Calidad de workflow: pasos deterministas y practicos.
+- Calidad de salida: formato estable y accionable.
+- Seguridad: guardrails explicitos y suficientes.
+- Modo de falla: respuesta segura si falta contexto.
+- Reusabilidad: posibilidad de uso en distintos ecosistemas.
 
-## Skill Evaluation Rubric
+## Rubrica para skills
 
-Score each criterion:
+Evaluar cada criterio:
 
-- Capability focus: does it solve one clear problem?
-- Contract quality: are inputs/process/outputs precise?
-- Evidence orientation: does it avoid unsupported claims?
-- Actionability: are outputs directly usable by agents?
-- Guardrails and limits: are constraints explicit?
-- Example quality: is there at least one reproducible example?
+- Foco de capacidad: resuelve un problema claro.
+- Calidad de contrato: inputs/proceso/outputs precisos.
+- Evidencia: evita afirmaciones sin respaldo.
+- Accionabilidad: salida utilizable por agents.
+- Guardrails y limites: restricciones explicitas.
+- Calidad de ejemplo: al menos un ejemplo reproducible.
 
-## Acceptance Thresholds
+## Umbrales de aceptacion
 
-- Recommended merge threshold: average score >= 4.0.
-- Any safety criterion below 4 requires revision.
-- Missing examples block merge for new agents/skills.
+- Umbral recomendado de merge: promedio >= 4.0.
+- Cualquier criterio de seguridad por debajo de 4 requiere revision.
+- Falta de ejemplos bloquea merge en agents/skills nuevos.
 
-## Review Checklist
+## Checklist de revision
 
-- Contract follows `docs/agent-skill-contract.md`.
-- Naming and structure follow repository conventions.
-- `docs/tooling-matrix.md` updated when dependencies change.
-- No secrets, credentials, or private data included.
+- Cumple el contrato de `docs/agent-skill-contract.md`.
+- Cumple convenciones de nombres y estructura del repositorio.
+- `docs/tooling-matrix.md` actualizado si cambian dependencias.
+- No incluye secretos, credenciales o datos privados.
 
-## Continuous Improvement
+## Mejora continua
 
-- Re-evaluate stable resources every 90 days.
-- Mark stale resources as `deprecated` until reviewed.
-- Track recurring review failures and update templates accordingly.
+- Re-evaluar recursos estables cada 90 dias.
+- Marcar recursos desactualizados como `deprecated` hasta revisarlos.
+- Registrar fallas recurrentes de revision y ajustar templates.

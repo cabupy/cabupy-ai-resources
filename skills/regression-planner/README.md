@@ -1,6 +1,6 @@
 # regression-planner
 
-Build focused regression plans around high-risk behavior.
+Construye planes de regresion enfocados en comportamientos de alto riesgo.
 
-- Used by: `test-engineer`, `refactor-architect`.
-- Output: prioritized regression checklist.
+- Usado por: `test-engineer`, `refactor-architect`.
+- Salida: checklist de regresion priorizado.

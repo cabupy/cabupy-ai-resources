@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: release candidate for production deployment.
+Entrada: release candidate para despliegue a produccion.
 
-Output: pre/post checklist with blockers for missing migration backup step.
+Salida: checklist pre/post release con bloqueo por falta de backup de migracion.
