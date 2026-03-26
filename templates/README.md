@@ -1,8 +1,13 @@
 # Templates
 
-Plantillas reutilizables para:
+Reusable templates for consistent contributions.
 
-- prompts
-- checklists
-- definicion de agentes
-- definicion de skills
+## Available
+
+- `agent-template.md`
+- `skill-template.md`
+
+## Usage
+
+- Copy the matching template into `agents/<agent-id>/` or `skills/<skill-id>/`.
+- Fill all required sections before opening a PR.

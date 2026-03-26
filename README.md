@@ -60,6 +60,14 @@ Este proyecto esta en fase inicial. La estructura base y la gobernanza minima ya
 - Guias de integracion por herramienta.
 - Buenas practicas de evaluacion para prompts/agentes.
 
+## Starter catalog
+
+- Base agents: `agents/`
+- Reusable skills: `skills/`
+- Agent/Skill contract: `docs/agent-skill-contract.md`
+- Agent to skill matrix: `docs/tooling-matrix.md`
+- Contribution templates: `templates/`
+
 ## Seguridad y uso responsable
 
 - Nunca subir tokens, secretos, credenciales o dumps de datos privados.
@@ -70,8 +78,8 @@ Consulta `SECURITY.md` para reporte responsable de vulnerabilidades.
 
 ## Roadmap inicial
 
-- [ ] Definir 5 agents base cross-tool.
-- [ ] Definir 10 skills reutilizables con ejemplos.
+- [x] Definir 5 agents base cross-tool.
+- [x] Definir 10+ skills reutilizables con ejemplos.
 - [ ] Publicar guia de evaluacion de calidad de prompts/agentes.
 - [ ] Agregar templates de contribucion por tipo de recurso.
 - [ ] Automatizar validaciones basicas (lint markdown + enlaces).
