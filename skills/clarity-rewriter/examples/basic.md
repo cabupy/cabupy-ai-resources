@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: long setup section with implicit steps.
+Entrada: seccion de setup extensa con pasos implicitos.
 
-Output: concise step-by-step instructions with explicit prerequisites.
+Salida: instrucciones concisas paso a paso con prerequisitos explicitos.

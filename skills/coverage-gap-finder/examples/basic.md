@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: retry logic added but no timeout failure tests.
+Entrada: se agrega logica de reintento sin pruebas de timeout por falla.
 
-Output: gap report calling out missing timeout and backoff validation cases.
+Salida: reporte de brechas con casos faltantes para timeout y backoff.

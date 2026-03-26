@@ -1,12 +1,12 @@
-# Example: Basic Pull Request Review
+# Ejemplo: Revision basica de pull request
 
-## Input
+## Entrada
 
-- Diff with changes in API handler and database query.
+- Diff con cambios en un handler de API y una consulta a base de datos.
 
-## Expected Output
+## Salida esperada
 
-- Short summary of behavior change.
-- High-severity warning if unvalidated input reaches query layer.
-- Medium-severity note for missing error-path tests.
-- Final merge status with explicit next actions.
+- Resumen breve del cambio de comportamiento.
+- Alerta de severidad alta si entrada no validada llega a capa de consulta.
+- Nota de severidad media por pruebas faltantes en rutas de error.
+- Estado final de merge con siguientes acciones explicitas.

@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: merged PR list for milestone `v0.2.0`.
+Entrada: lista de PRs mergeados para el hito `v0.2.0`.
 
-Output: categorized changelog with one-line impact per entry.
+Salida: changelog categorizado con impacto en una linea por entrada.

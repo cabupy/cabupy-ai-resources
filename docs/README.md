@@ -1,13 +1,13 @@
 # Docs
 
-Technical documentation and integration guides.
+Documentacion tecnica y guias de integracion.
 
-## Current Docs
+## Documentos actuales
 
-- `agent-skill-contract.md`: minimum contract for agents and skills.
-- `tooling-matrix.md`: mapping between base agents and reusable skills.
+- `agent-skill-contract.md`: contrato minimo para agentes y skills.
+- `tooling-matrix.md`: mapeo entre agentes base y skills reutilizables.
+- `quality-evaluation.md`: rubrica de calidad para revisar aportes.
 
-## Next Docs
+## Proximos documentos
 
 - `architecture.md`
-- `quality-evaluation.md`

@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: endpoint adds query params and writes request metadata to logs.
+Entrada: endpoint que agrega query params y escribe metadatos de request en logs.
 
-Output: warning on unvalidated params and fail on sensitive token logging.
+Salida: advertencia por parametros no validados y error por log de token sensible.

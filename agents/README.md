@@ -14,7 +14,7 @@ Cada agente define una responsabilidad clara, con entradas/salidas observables, 
 - `docs-maintainer`: documentacion operativa y tecnica accionable.
 - `release-manager`: preparacion de release notes, versionado y checklist de entrega.
 
-See `docs/tooling-matrix.md` for the current agent-to-skill mapping.
+Ver `docs/tooling-matrix.md` para la matriz actual de agentes y skills.
 
 ## Estructura por agente
 
@@ -33,4 +33,4 @@ agents/<agent-id>/
 - Define salida esperada con formato estable.
 - Declara compatibilidad objetivo (`generic`, `codex`, `claude-code`, `gemini-cli`, `opencode`).
 
-All agent specs must follow `docs/agent-skill-contract.md`.
+Todas las especificaciones de agentes deben cumplir `docs/agent-skill-contract.md`.

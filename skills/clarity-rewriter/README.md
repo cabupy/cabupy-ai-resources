@@ -1,6 +1,6 @@
 # clarity-rewriter
 
-Rewrite technical text for precision and readability.
+Reescribe texto tecnico para mejorar precision y legibilidad.
 
-- Used by: `docs-maintainer`.
-- Output: improved text preserving technical meaning.
+- Usado por: `docs-maintainer`.
+- Salida: texto mejorado preservando significado tecnico.

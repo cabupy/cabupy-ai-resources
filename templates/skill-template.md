@@ -1,13 +1,16 @@
-# Skill Template
+# Plantilla de Skill
 
-```yaml
+Usa esta plantilla para crear `skills/*/skill.md` en ingles.
+
+```markdown
+---
 id: your-skill-id
 version: 0.1.0
 status: draft
 owner: your-name-or-team
 compatibility: [generic]
 last_reviewed: YYYY-MM-DD
-```
+---
 
 ## Purpose
 
@@ -39,3 +42,4 @@ What specific capability this skill provides.
 ## Failure Mode
 
 How to fail safely when context is insufficient.
+```

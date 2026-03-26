@@ -1,6 +1,6 @@
 # docs-structure-planner
 
-Plan documentation structure by audience and use case.
+Planifica estructura documental por audiencia y caso de uso.
 
-- Used by: `docs-maintainer`.
-- Output: proposed table of contents and file mapping.
+- Usado por: `docs-maintainer`.
+- Salida: propuesta de tabla de contenidos y mapeo de archivos.

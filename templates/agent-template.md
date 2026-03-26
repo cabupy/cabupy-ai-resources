@@ -1,13 +1,16 @@
-# Agent Template
+# Plantilla de Agent
 
-```yaml
+Usa esta plantilla para crear `agents/*/agent.md` en ingles.
+
+```markdown
+---
 id: your-agent-id
 version: 0.1.0
 status: draft
 owner: your-name-or-team
 compatibility: [generic]
 last_reviewed: YYYY-MM-DD
-```
+---
 
 ## Purpose
 
@@ -45,3 +48,4 @@ What end-to-end problem this agent solves.
 ## Failure Mode
 
 What the agent does when context is insufficient.
+```

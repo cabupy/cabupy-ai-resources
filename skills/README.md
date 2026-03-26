@@ -1,12 +1,12 @@
 # Skills
 
-Reusable capability modules used by one or more agents.
+Modulos de capacidad reutilizables usados por uno o mas agentes.
 
-## Contract
+## Contrato
 
-All skills follow the standard in `docs/agent-skill-contract.md`.
+Todas las skills deben seguir el estandar en `docs/agent-skill-contract.md`.
 
-## Current Skill Set
+## Skill set actual
 
 - `risk-assessment`
 - `security-checklist`
@@ -21,7 +21,7 @@ All skills follow the standard in `docs/agent-skill-contract.md`.
 - `changelog-drafter`
 - `release-checklist-runner`
 
-## Directory Layout
+## Estructura de directorio
 
 ```text
 skills/<skill-id>/

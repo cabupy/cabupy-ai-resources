@@ -43,7 +43,7 @@ Este proyecto esta en fase inicial. La estructura base y la gobernanza minima ya
 - Commits recomendados: Conventional Commits (`feat:`, `fix:`, `docs:`, etc.).
 - Changelog: formato Keep a Changelog.
 - Documentacion: Markdown claro, ejemplos minimos reproducibles.
-- Idioma: se acepta espanol o ingles; cada recurso debe mantener consistencia.
+- Idioma: seguir politica de `AGENTS.md`.
 
 ## Como contribuir
 
@@ -63,7 +63,7 @@ Este proyecto esta en fase inicial. La estructura base y la gobernanza minima ya
 ## Starter catalog
 
 - Base agents: `agents/`
-- Reusable skills: `skills/`
+- Skills reutilizables: `skills/`
 - Agent/Skill contract: `docs/agent-skill-contract.md`
 - Agent to skill matrix: `docs/tooling-matrix.md`
 - Contribution templates: `templates/`

@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: feature adds coupon expiration logic.
+Entrada: feature que agrega logica de expiracion de cupones.
 
-Output: cases for valid coupon, expired coupon, timezone edge, and invalid code.
+Salida: casos para cupon valido, cupon expirado, borde de zona horaria y codigo invalido.

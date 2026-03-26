@@ -1,5 +1,5 @@
-# Example
+# Ejemplo
 
-Input: add onboarding docs for new contributors.
+Entrada: necesidad de agregar onboarding para nuevos contribuidores.
 
-Output: structure proposal linking README, CONTRIBUTING, and docs/onboarding.md.
+Salida: propuesta de estructura enlazando README, CONTRIBUTING y docs/onboarding.md.
