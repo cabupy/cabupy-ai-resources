@@ -88,6 +88,11 @@ Consulta `SECURITY.md` para reporte responsable de vulnerabilidades.
 
 Este proyecto se distribuye bajo licencia Apache-2.0. Consulta `LICENSE` y `NOTICE`.
 
+## Releases
+
+- Changelog oficial: `CHANGELOG.md`.
+- Proceso de publicacion: `RELEASE.md`.
+
 ## Comunidad
 
 Si te interesa co-crear este repositorio, abre un issue en modo propuesta (`proposal`) para discutir alcance y priorizacion.
