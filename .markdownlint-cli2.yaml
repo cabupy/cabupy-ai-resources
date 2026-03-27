@@ -6,3 +6,5 @@ config:
 ignores:
   - "**/legacy-spec.md"
   - "skills/**/references/*.md"
+  - "skills/mobile-ux-ui/ionic-angular.md"
+  - "skills/mobile-ux-ui/react-native.md"
