@@ -17,6 +17,7 @@ Cada agente define una responsabilidad clara, con entradas/salidas observables, 
 - `angular-architect`: arquitectura Angular para proyectos de alta complejidad.
 - `nodejs-backend-base`: desarrollo backend Node.js para casos generales.
 - `nodejs-architecture-expert`: diseno arquitectonico backend en Node.js/TypeScript.
+- `nodejs-security-expert`: seguridad aplicada a APIs y autenticacion en Node.js.
 
 Ver `docs/tooling-matrix.md` para la matriz actual de agentes y skills.
 

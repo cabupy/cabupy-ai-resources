@@ -15,6 +15,7 @@ Esta matriz define que skills reutilizables usa cada agent base.
 | `angular-architect` | Disenar y evolucionar arquitectura Angular en entornos complejos | `angular-feature-development`, `ui-ux-foundations`, `test-case-design`, `coverage-gap-finder`, `risk-assessment` |
 | `nodejs-backend-base` | Construir backend Node.js para casos generales de negocio | `change-summarizer`, `test-case-design`, `coverage-gap-finder`, `security-checklist` |
 | `nodejs-architecture-expert` | Definir arquitectura backend mantenible en Node.js | `risk-assessment`, `change-summarizer`, `docs-structure-planner`, `clarity-rewriter` |
+| `nodejs-security-expert` | Endurecer seguridad de aplicaciones Node.js | `security-checklist`, `risk-assessment`, `review-comment-writer`, `change-summarizer` |
 
 ## Notas
 
