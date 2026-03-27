@@ -12,6 +12,7 @@ Esta matriz define que skills reutilizables usa cada agent base.
 | `refactor-architect` | Planificar refactors seguros por etapas | `risk-assessment`, `change-summarizer`, `regression-planner` |
 | `release-manager` | Preparar releases con notas y checks claros | `changelog-drafter`, `release-checklist-runner`, `risk-assessment`, `change-summarizer` |
 | `frontend-developer` | Implementar funcionalidades frontend con calidad visual y tecnica | `ui-ux-foundations`, `react-feature-development`, `angular-feature-development`, `tailwindcss-ui-engineering`, `test-case-design`, `coverage-gap-finder` |
+| `angular-architect` | Disenar y evolucionar arquitectura Angular en entornos complejos | `angular-feature-development`, `ui-ux-foundations`, `test-case-design`, `coverage-gap-finder`, `risk-assessment` |
 
 ## Notas
 
