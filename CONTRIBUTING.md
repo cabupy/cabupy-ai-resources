@@ -6,7 +6,7 @@ Gracias por contribuir a este proyecto.
 
 - Revisa issues abiertos para evitar duplicados.
 - Si el cambio es grande, abre primero un issue tipo `proposal`.
-- Mantiene PRs pequenos: idealmente una sola idea por PR.
+- Manten PRs pequenos: idealmente una sola idea por PR.
 
 ## Flujo recomendado
 

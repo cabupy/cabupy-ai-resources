@@ -1,8 +1,8 @@
-# AI Agent Resources Hub
+# Hub de Recursos para Agentes de IA
 
 Repositorio colaborativo de recursos para agentes de IA orientados a desarrollo de software.
 
-Objetivo: ofrecer un set curado, versionado y reusable de `agents`, `skills`, plantillas y guias para herramientas como Codex, Claude Code, Gemini CLI, OpenCode y similares.
+Objetivo: ofrecer un set curado, versionado y reutilizable de `agents`, `skills`, plantillas y guias para herramientas como Codex, Claude Code, Gemini CLI, OpenCode y similares.
 
 ## Principios del proyecto
 
@@ -14,7 +14,7 @@ Objetivo: ofrecer un set curado, versionado y reusable de `agents`, `skills`, pl
 
 ## Estado (Marzo 2026)
 
-Este proyecto esta en fase inicial. La estructura base y la gobernanza minima ya estan definidas para facilitar aportes de la comunidad desde el primer dia.
+El proyecto se encuentra en fase de consolidacion temprana. Ya cuenta con catalogo base de agentes/skills, politicas de colaboracion y validaciones automaticas para calidad documental y consistencia de catalogo.
 
 ## Estructura del repositorio
 
@@ -60,18 +60,24 @@ Este proyecto esta en fase inicial. La estructura base y la gobernanza minima ya
 - Guias de integracion por herramienta.
 - Buenas practicas de evaluacion para prompts/agentes.
 
-## Starter catalog
+## Catalogo base
 
-- Base agents: `agents/`
+- Agentes base: `agents/`
 - Skills reutilizables: `skills/`
-- Agent/Skill contract: `docs/agent-skill-contract.md`
-- Agent to skill matrix: `docs/tooling-matrix.md`
-- Contribution templates: `templates/`
+- Contrato Agent/Skill: `docs/agent-skill-contract.md`
+- Matriz Agent/Skill: `docs/tooling-matrix.md`
+- Plantillas de contribucion: `templates/`
 
 Estado actual del catalogo:
 
 - 15 agentes en formato estandar.
 - 18 skills en formato estandar.
+
+## Calidad automatizada
+
+- `Docs Quality`: lint de Markdown y validacion de enlaces.
+- `Language Policy`: cumplimiento de politica de idioma y mensajes de commit.
+- `Catalog Consistency`: consistencia entre catalogos, matriz y contratos.
 
 ## Seguridad y uso responsable
 
@@ -83,7 +89,7 @@ Consulta `SECURITY.md` para reporte responsable de vulnerabilidades.
 
 ## Roadmap inicial
 
-- [x] Definir 5 agents base cross-tool.
+- [x] Definir 5 agentes base cross-tool.
 - [x] Definir 10+ skills reutilizables con ejemplos.
 - [x] Publicar guia de evaluacion de calidad de prompts/agentes.
 - [x] Agregar templates de contribucion por tipo de recurso.
