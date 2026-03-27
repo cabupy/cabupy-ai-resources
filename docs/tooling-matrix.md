@@ -19,6 +19,7 @@ Esta matriz define que skills reutilizables usa cada agent base.
 | `nodejs-performance-expert` | Optimizar latencia, throughput y uso de recursos en Node.js | `risk-assessment`, `coverage-gap-finder`, `test-prioritization`, `change-summarizer` |
 | `nodejs-database-expert` | Mejorar capa de datos PostgreSQL/Redis en sistemas Node.js | `risk-assessment`, `regression-planner`, `change-summarizer`, `test-case-design` |
 | `linux-security-engineer` | Operar y endurecer infraestructura Linux con seguridad | `security-checklist`, `risk-assessment`, `release-checklist-runner`, `change-summarizer` |
+| `postgres-dba-architect` | Disenar y operar plataformas PostgreSQL seguras y eficientes | `risk-assessment`, `regression-planner`, `release-checklist-runner`, `change-summarizer` |
 
 ## Notas
 
