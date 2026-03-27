@@ -8,7 +8,22 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 
 ### Added
 
-- Pendiente.
+- Agente `angular-architect` para arquitectura Angular en entornos complejos.
+- Agente `nodejs-backend-base` para desarrollo backend Node.js generalista.
+- Agente `nodejs-architecture-expert` para decisiones arquitectonicas en Node.js.
+- Agente `nodejs-security-expert` para seguridad de aplicaciones Node.js.
+- Agente `nodejs-performance-expert` para optimizacion de rendimiento en Node.js.
+- Agente `nodejs-database-expert` para capa de datos PostgreSQL/Redis en Node.js.
+- Agente `linux-security-engineer` para hardening y operaciones seguras en Linux.
+- Agente `postgres-dba-architect` para arquitectura y operacion avanzada de PostgreSQL.
+- Agente `cybersec-ethical-hacker` para evaluacion de seguridad en alcance autorizado.
+- Skill `maps-expert` para implementaciones de mapas web con foco en responsive y rendimiento.
+- Skill `mobile-ux-ui` para UX/UI movil en aplicaciones hibridas o nativas.
+
+### Changed
+
+- `frontend-developer` ahora integra `maps-expert` y `mobile-ux-ui` en su set de skills.
+- Se amplio la matriz de `docs/tooling-matrix.md` y el catalogo de `agents/README.md` y `skills/README.md` tras la curacion incremental.
 
 ## [0.1.0] - 2026-03-26
 

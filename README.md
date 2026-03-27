@@ -68,6 +68,11 @@ Este proyecto esta en fase inicial. La estructura base y la gobernanza minima ya
 - Agent to skill matrix: `docs/tooling-matrix.md`
 - Contribution templates: `templates/`
 
+Estado actual del catalogo:
+
+- 15 agentes en formato estandar.
+- 18 skills en formato estandar.
+
 ## Seguridad y uso responsable
 
 - Nunca subir tokens, secretos, credenciales o dumps de datos privados.
