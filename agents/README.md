@@ -20,6 +20,7 @@ Cada agente define una responsabilidad clara, con entradas/salidas observables, 
 - `nodejs-security-expert`: seguridad aplicada a APIs y autenticacion en Node.js.
 - `nodejs-performance-expert`: optimizacion de rendimiento y observabilidad en Node.js.
 - `nodejs-database-expert`: capa de datos PostgreSQL/Redis para sistemas Node.js.
+- `linux-security-engineer`: hardening y operaciones seguras en Linux.
 
 Ver `docs/tooling-matrix.md` para la matriz actual de agentes y skills.
 
