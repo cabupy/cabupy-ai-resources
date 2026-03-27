@@ -32,6 +32,8 @@ state management, and UI behavior.
 - react-feature-development
 - angular-feature-development
 - tailwindcss-ui-engineering
+- maps-expert
+- mobile-ux-ui
 - change-summarizer
 - test-case-design
 - coverage-gap-finder

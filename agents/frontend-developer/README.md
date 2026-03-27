@@ -6,6 +6,7 @@ Agente estandar para desarrollo frontend en proyectos web modernos.
   y UX.
 - Usa skills: `ui-ux-foundations`, `react-feature-development`,
   `angular-feature-development`, `tailwindcss-ui-engineering`,
+  `maps-expert`, `mobile-ux-ui`,
   `change-summarizer`, `test-case-design`, `coverage-gap-finder`,
   `clarity-rewriter`.
 - Salida: implementacion alineada al stack y convenciones del repositorio.
