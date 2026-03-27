@@ -16,6 +16,7 @@ Cada agente define una responsabilidad clara, con entradas/salidas observables, 
 - `frontend-developer`: implementacion frontend estandar con foco en UX y accesibilidad.
 - `angular-architect`: arquitectura Angular para proyectos de alta complejidad.
 - `nodejs-backend-base`: desarrollo backend Node.js para casos generales.
+- `nodejs-architecture-expert`: diseno arquitectonico backend en Node.js/TypeScript.
 
 Ver `docs/tooling-matrix.md` para la matriz actual de agentes y skills.
 
