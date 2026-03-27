@@ -14,6 +14,7 @@ Cada agente define una responsabilidad clara, con entradas/salidas observables, 
 - `docs-maintainer`: documentacion operativa y tecnica accionable.
 - `release-manager`: preparacion de release notes, versionado y checklist de entrega.
 - `frontend-developer`: implementacion frontend estandar con foco en UX y accesibilidad.
+- `angular-architect`: arquitectura Angular para proyectos de alta complejidad.
 
 Ver `docs/tooling-matrix.md` para la matriz actual de agentes y skills.
 
