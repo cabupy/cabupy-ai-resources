@@ -14,6 +14,15 @@ Cada agente define una responsabilidad clara, con entradas/salidas observables, 
 - `docs-maintainer`: documentacion operativa y tecnica accionable.
 - `release-manager`: preparacion de release notes, versionado y checklist de entrega.
 - `frontend-developer`: implementacion frontend estandar con foco en UX y accesibilidad.
+- `angular-architect`: arquitectura Angular para proyectos de alta complejidad.
+- `nodejs-backend-base`: desarrollo backend Node.js para casos generales.
+- `nodejs-architecture-expert`: diseno arquitectonico backend en Node.js/TypeScript.
+- `nodejs-security-expert`: seguridad aplicada a APIs y autenticacion en Node.js.
+- `nodejs-performance-expert`: optimizacion de rendimiento y observabilidad en Node.js.
+- `nodejs-database-expert`: capa de datos PostgreSQL/Redis para sistemas Node.js.
+- `linux-security-engineer`: hardening y operaciones seguras en Linux.
+- `cybersec-ethical-hacker`: evaluacion de seguridad ofensiva/defensiva autorizada.
+- `postgres-dba-architect`: arquitectura y operacion avanzada de PostgreSQL.
 
 Ver `docs/tooling-matrix.md` para la matriz actual de agentes y skills.
 

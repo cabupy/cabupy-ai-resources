@@ -22,6 +22,7 @@ token consistency.
 1. Define semantic class strategy and reusable patterns.
 2. Implement responsive layouts and component states.
 3. Validate readability, contrast, and interaction feedback.
+4. Ensure design token usage is consistent across components.
 
 ## Output Format
 

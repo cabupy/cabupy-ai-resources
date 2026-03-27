@@ -21,11 +21,12 @@ Define a practical UX/UI baseline for frontend tasks.
 1. Identify user flows and critical interactions.
 2. Define layout and hierarchy decisions.
 3. Validate usability and accessibility baseline.
+4. Align recommendations with design-system and implementation handoff.
 
 ## Output Format
 
 - UX checklist (`flow`, `clarity`, `feedback`, `errors`, `accessibility`).
-- UI consistency notes and implementation recommendations.
+- UI consistency notes, token guidelines, and implementation recommendations.
 
 ## Guardrails
 
