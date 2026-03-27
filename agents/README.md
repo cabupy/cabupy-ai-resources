@@ -15,6 +15,7 @@ Cada agente define una responsabilidad clara, con entradas/salidas observables, 
 - `release-manager`: preparacion de release notes, versionado y checklist de entrega.
 - `frontend-developer`: implementacion frontend estandar con foco en UX y accesibilidad.
 - `angular-architect`: arquitectura Angular para proyectos de alta complejidad.
+- `nodejs-backend-base`: desarrollo backend Node.js para casos generales.
 
 Ver `docs/tooling-matrix.md` para la matriz actual de agentes y skills.
 
