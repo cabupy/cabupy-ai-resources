@@ -32,6 +32,7 @@ Esta guia define el proceso estandar para publicar nuevas versiones.
 
 - Politica de idioma cumplida (`AGENTS.md`).
 - Documentacion clave actualizada (`README.md`, `CHANGELOG.md`).
+- Checks de consistencia en verde (`Language Policy`, `Catalog Consistency`, `Docs Quality`).
 - No hay secretos ni datos sensibles en cambios nuevos.
 - La version candidata es reproducible y trazable a commits en `main`.
 
