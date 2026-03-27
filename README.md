@@ -88,6 +88,7 @@ Consulta `SECURITY.md` para reporte responsable de vulnerabilidades.
 - [x] Publicar guia de evaluacion de calidad de prompts/agentes.
 - [x] Agregar templates de contribucion por tipo de recurso.
 - [x] Automatizar validaciones basicas (lint markdown + enlaces).
+- [x] Validar consistencia automatica entre catalogos y matriz Agent-Skill.
 
 ## Licencia
 

@@ -24,6 +24,7 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 
 - `frontend-developer` ahora integra `maps-expert` y `mobile-ux-ui` en su set de skills.
 - Se amplio la matriz de `docs/tooling-matrix.md` y el catalogo de `agents/README.md` y `skills/README.md` tras la curacion incremental.
+- Se agrego validacion automatica de consistencia de catalogo (`Catalog Consistency`) para evitar desalineaciones entre agentes, skills y matriz.
 
 ## [0.1.0] - 2026-03-26
 
