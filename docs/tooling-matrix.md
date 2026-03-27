@@ -17,6 +17,7 @@ Esta matriz define que skills reutilizables usa cada agent base.
 | `nodejs-architecture-expert` | Definir arquitectura backend mantenible en Node.js | `risk-assessment`, `change-summarizer`, `docs-structure-planner`, `clarity-rewriter` |
 | `nodejs-security-expert` | Endurecer seguridad de aplicaciones Node.js | `security-checklist`, `risk-assessment`, `review-comment-writer`, `change-summarizer` |
 | `nodejs-performance-expert` | Optimizar latencia, throughput y uso de recursos en Node.js | `risk-assessment`, `coverage-gap-finder`, `test-prioritization`, `change-summarizer` |
+| `nodejs-database-expert` | Mejorar capa de datos PostgreSQL/Redis en sistemas Node.js | `risk-assessment`, `regression-planner`, `change-summarizer`, `test-case-design` |
 
 ## Notas
 
