@@ -21,6 +21,7 @@ Cada agente define una responsabilidad clara, con entradas/salidas observables, 
 - `nodejs-performance-expert`: optimizacion de rendimiento y observabilidad en Node.js.
 - `nodejs-database-expert`: capa de datos PostgreSQL/Redis para sistemas Node.js.
 - `linux-security-engineer`: hardening y operaciones seguras en Linux.
+- `postgres-dba-architect`: arquitectura y operacion avanzada de PostgreSQL.
 
 Ver `docs/tooling-matrix.md` para la matriz actual de agentes y skills.
 
