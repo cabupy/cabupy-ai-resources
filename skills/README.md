@@ -24,6 +24,8 @@ Todas las skills deben seguir el estandar en `docs/agent-skill-contract.md`.
 - `react-feature-development`
 - `angular-feature-development`
 - `tailwindcss-ui-engineering`
+- `maps-expert`
+- `mobile-ux-ui`
 
 ## Estructura de directorio
 
